@@ -4,7 +4,7 @@ const axios = require("axios").default;
 
 export const productApi = () => {
   return axios
-    .get("https://reactfinal-5c36d-default-rtdb.firebaseio.com/Products.json")
+    .get("https://tienda-75f88-default-rtdb.firebaseio.com/Products.json")
     .then(function (response) {
       return response.data;
     })
@@ -15,7 +15,7 @@ export const productApi = () => {
 
 export const agregarProd = (data) => {
   axios
-    .post("https://reactfinal-5c36d-default-rtdb.firebaseio.com/Products.json", {
+    .post("https://tienda-75f88-default-rtdb.firebaseio.com/Products.json", {
       MaxVent: data.MaxVent,
       SKU: data.SKU,
       View: data.View,
@@ -39,7 +39,7 @@ export const agregarProd = (data) => {
 
 export const eliminarProduct = (id) =>{
 
-    return axios.delete(`https://reactfinal-5c36d-default-rtdb.firebaseio.com/Products/${id}.json`)
+    return axios.delete(`https://tienda-75f88-default-rtdb.firebaseio.com/Products/${id}.json`)
     .then(function (response) {
       Swal.fire({
         title: 'Estas seguro de eliminar el producto?',

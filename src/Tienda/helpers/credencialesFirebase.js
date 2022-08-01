@@ -5,12 +5,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAFXNmGqyEr_wk3IHfMQ9gTxQnO5Zc3T1I",
-  authDomain: "reactfinal-5c36d.firebaseapp.com",
-  projectId: "reactfinal-5c36d",
-  storageBucket: "reactfinal-5c36d.appspot.com",
-  messagingSenderId: "892487425252",
-  appId: "1:892487425252:web:e6453f38ba16e1addce0f1"
+  apiKey: "AIzaSyA2w4WDOEzWQKPsS-0wj_DjmwjVmsGLgzI",
+  authDomain: "tienda-75f88.firebaseapp.com",
+  databaseURL: "https://tienda-75f88-default-rtdb.firebaseio.com",
+  projectId: "tienda-75f88",
+  storageBucket: "tienda-75f88.appspot.com",
+  messagingSenderId: "385306789519",
+  appId: "1:385306789519:web:56400bdc67e0472d5052fa",
 };
 
 // Initialize Firebase

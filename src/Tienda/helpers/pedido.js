@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 const axios = require("axios").default;
 export const agregarPedido = (data) => {
     axios
-      .post("https://reactfinal-5c36d-default-rtdb.firebaseio.com/Pedidos.json", {
+      .post("https://tienda-75f88-default-rtdb.firebaseio.com/Pedidos.json", {
             nombre: data.nombre,
             corre: data.correo,
             telefono: data.telefono,

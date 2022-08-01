@@ -1,5 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
+import { NavLink } from "react-router-dom"; 
 import '../../../assets/UserLogin.css';
 
 
@@ -15,42 +16,42 @@ export const MenuAdmin = () => {
         </Navbar>
         <Navbar bg="light">
           <Container>
-            <Navbar.Brand active href="/admin/Dashboard">Dashboard</Navbar.Brand>
+            <NavLink to="/admin/Dashboard">Dashboard </NavLink>
           </Container>
         </Navbar>
         <Navbar bg="light">
           <Container>
-            <Navbar.Brand href="/admin/ProductsView">Productos</Navbar.Brand>
+            <NavLink to="/admin/ProductsView">Productos</NavLink>
           </Container>
         </Navbar>
         <Navbar bg="light">
           <Container>
-            <Navbar.Brand href="/admin/AddProduct">Agregar Producto</Navbar.Brand>
+            <NavLink to="/admin/AddProduct">Agregar Producto</NavLink>
           </Container>
         </Navbar>        
         <Navbar bg="light">
           <Container>
-            <Navbar.Brand href="/admin/CategoriasView">Categorias</Navbar.Brand>
+            <NavLink to="/admin/CategoriasView">Categorias</NavLink>
           </Container>
         </Navbar>    
         <Navbar bg="light">
           <Container>
-            <Navbar.Brand href="/admin/AddCategoria">Agregar Categoria</Navbar.Brand>
+            <NavLink to="/admin/AddCategoria">Agregar Categoria</NavLink>
           </Container>
         </Navbar>     
         <Navbar bg="light">
           <Container>
-            <Navbar.Brand href="/admin/PedidosView">Pedidos</Navbar.Brand>
+            <NavLink to="/admin/PedidosView">Pedidos</NavLink>
           </Container>
         </Navbar>        
         <Navbar bg="light" style={{borderTop:"1px solid #808B96"}}>
           <Container>
-            <Navbar.Brand href="#">Configuración</Navbar.Brand>
+            <NavLink to="#">Configuración</NavLink>
           </Container>
         </Navbar>
         <Navbar bg="light">
           <Container>
-            <Navbar.Brand href="#">Cerrar Sesión</Navbar.Brand>
+            <NavLink to="#">Cerrar Sesión</NavLink>
           </Container>
         </Navbar>      
       </div>

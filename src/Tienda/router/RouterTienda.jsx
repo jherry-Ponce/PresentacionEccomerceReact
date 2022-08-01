@@ -41,7 +41,6 @@ export const RouterTienda = () => {
         <Route path="/admin/categoriasView" element={<CategoriasView/>}/>
         <Route path="/admin/AddCategoria" element={<AddCategoria/>}/>
         <Route path="/admin/PedidosView" element={<PedidosView/>}/>
-
       </Routes>
     <Footer/>
     </>

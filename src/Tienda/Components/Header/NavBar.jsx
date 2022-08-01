@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import { SubCategory } from "./SubCategory";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
@@ -44,9 +44,9 @@ export const NavBar = () => {
         <div className="">
         <div className="container d-flex align-items-center h-16 justify-content-between px-0  ">
             {/* logo */}
-            <a href="/" className="fs-2">
+            <Link to={"/"} className="fs-2">
               <img src={Logo} title="Linio" alt="logo" className="logo-nav" />
-            </a>
+            </Link>
             {/* barra categorias */}
             <div className=" d-flex flex-column align-items-center justify-content-center order-md-first order-last px-4 h-100 ">
               <Navbar.Toggle

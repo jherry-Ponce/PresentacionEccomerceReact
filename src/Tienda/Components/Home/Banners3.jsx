@@ -1,5 +1,6 @@
 import {Row, Col, Container} from "react-bootstrap";
 import Slider from "react-slick";
+import {Link} from "react-router-dom"
 import "../../../assets/Home.css";
 
 export const Banners3 = () => {
@@ -57,8 +58,14 @@ export const Banners3 = () => {
   return (
     <Container>
     <Container className="mt-3">
-        <Row  className="my-2">
-            <h3>Tecnología</h3>
+        <Row  className="my-2 ">
+          <div className="d-flex align-items-center">
+            <h3 className="me-2">Tecnología</h3>
+              <Link to="/Category/1" className="text-verde">
+                ver mas...
+              </Link>
+          </div>
+           
         </Row>
         <Row  className="borderImg text-center pb-4 " >
             <Col lg={6} >
@@ -101,7 +108,12 @@ export const Banners3 = () => {
     </Container>
     <Container className="mt-3">
         <Row  className="my-2">
-            <h3>Electro</h3>
+            <div className="d-flex align-items-center">
+            <h3 className="me-2">Hogar</h3>
+              <Link to="/Category/2" className="text-verde">
+                ver mas...
+              </Link>
+          </div>
         </Row>
         <Row  className="borderImg text-center pb-4">
             <Col lg={6}>
@@ -141,7 +153,12 @@ export const Banners3 = () => {
     </Container>
     <Container className="mt-3">
         <Row  className="my-2">
-            <h3>Moda</h3>
+        <div className="d-flex align-items-center">
+            <h3 className="me-3">Moda</h3>
+              <Link to="/Category/2" className="text-verde">
+                ver mas...
+              </Link>
+          </div>
         </Row>
         <Row  className="borderImg text-center pb-4">
             <Col lg={6}>

@@ -19,9 +19,9 @@ export const CartItems = ({value}) => {
             <Card.Text>
                 <Row>
                     <Col xs={9}>
-                        <div className="price-del"><span>Precio: S/{(value.price)}</span></div>
+                        <div className="price-del"><span>Precio: S/{(value.descuento)}</span></div>
                         <div className="text-danger">Cantidad: {value.cantidad}</div>
-                        <div className="fw-bold"><span>Total: S/{(value.price)*(value.cantidad)}</span></div>
+                        <div className="fw-bold"><span>Total: S/{(value.descuento)*(value.cantidad)}</span></div>
                     </Col>
                     <Col xs={2}>
                     <button className='btn ' onClick={()=>deleteProductToCart(value)}><i className="fa fa-times text-danger"   aria-hidden="true"></i> </button>                               

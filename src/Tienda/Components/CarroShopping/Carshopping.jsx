@@ -8,7 +8,7 @@ export const Carshopping = () => {
     useContext(CartContext);
   const { cartItem } = useContext(CartContext);
   const total=cartItem.reduce(
-    (previous,current)=>previous + current.cantidad * current.price,0
+    (previous,current)=>previous + current.cantidad * current.descuento,0
   );
 
   return (

@@ -11,7 +11,7 @@ export const Pagos = () => {
     let TotalFinal = 0;
     let bandera = false
     let total = datos.map((total) => {
-        TotalFinal += (total.cantidad * total.price)
+        TotalFinal += (total.cantidad * total.descuento)
     })
     const createOrder = (data, actions) => {
         return actions.order.create({
@@ -209,7 +209,7 @@ export const Pagos = () => {
                                                 <span className="">{items.title}</span>
                                             </div>
                                             <div className="col-4">
-                                                <span className="">S/. {items.cantidad * items.price}</span>
+                                                <span className="">S/. {items.cantidad * items.descuento}</span>
                                         </div>
                                     </Card.Text>                                       
                                     ))

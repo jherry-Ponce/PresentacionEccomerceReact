@@ -55,7 +55,7 @@ export const CategoriasView = () => {
                         <i className="fa fa-pencil mx-2" aria-hidden="true"></i>
                         </button>
                         <button className="btn text-success">
-                          <i class="fa fa-trash" aria-hidden="true"></i>
+                          <i className="fa fa-trash" aria-hidden="true"></i>
                         </button>
                         </div>
                       </td>

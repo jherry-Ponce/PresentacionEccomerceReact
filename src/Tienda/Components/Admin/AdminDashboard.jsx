@@ -24,7 +24,7 @@ export const AdminDashboard = () => {
                   <Row>
                     <Col>
                       <div className="border bg-success rounded h-100 w-100 d-flex justify-content-center align-items-center border-success">
-                        <i class="fa fa-usd h2" aria-hidden="true"></i>
+                        <i className="fa fa-usd h2" aria-hidden="true"></i>
                       </div>
                     </Col>
                     <Col>
@@ -59,7 +59,7 @@ export const AdminDashboard = () => {
                     <Col>
                       <div className="border bg-info rounded h-100 w-100 d-flex justify-content-center align-items-center border-info mb-1">
                         <i
-                          class="fa fa-shopping-basket fs-2"
+                          className="fa fa-shopping-basket fs-2"
                           aria-hidden="true"
                         ></i>
                       </div>

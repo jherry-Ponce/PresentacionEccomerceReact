@@ -215,11 +215,11 @@ const Product = () => {
                         <td className="" style={{ width: "20%" }} rowSpan={6}>
                           <p style={{ fontSize: "60px" }}>4.5</p>
                           <div style={{ fontSize: "20px", color: "#FFAB00" }}>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star-half-o" aria-hidden="true"></i>
                           </div>
                         </td>
                       </tr>
@@ -228,7 +228,7 @@ const Product = () => {
                           5
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -242,7 +242,7 @@ const Product = () => {
                           4
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -256,7 +256,7 @@ const Product = () => {
                           3
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -270,7 +270,7 @@ const Product = () => {
                           2
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -284,7 +284,7 @@ const Product = () => {
                           1
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -303,11 +303,11 @@ const Product = () => {
                           </td>
                           <td>
                           <div className="mt-3 mx-3" style={{ fontSize: "20px", color: "#FFAB00" }}>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star-half-o" aria-hidden="true"></i>
                             <p style={{ fontSize: "20px", color: "#000000" }}>63 reseñas</p>
                           </div>
                         </td>
@@ -328,11 +328,11 @@ const Product = () => {
               <span>
                 
                 <span style={{ color: "#FFAB00" }} className="mx-3">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  <i className="fa fa-star" aria-hidden="true"></i>
+                  <i className="fa fa-star" aria-hidden="true"></i>
+                  <i className="fa fa-star" aria-hidden="true"></i>
+                  <i className="fa fa-star" aria-hidden="true"></i>
+                  <i className="fa fa-star-half-o" aria-hidden="true"></i>
                   <a
                     href="#"
                     className="mx-3 fw-bold"
@@ -376,7 +376,7 @@ const Product = () => {
               <div>
                 <i
                   style={{ fontSize: "20px" }}
-                  class="fa fa-building m-2"
+                  className="fa fa-building m-2"
                   aria-hidden="true"
                 ></i>
                 <h5 className="d-inline">Recógelo gratis en tienda</h5>
@@ -413,7 +413,7 @@ const Product = () => {
               className="border-top pt-3"
             >
               <div>
-                <i class="fa fa-shield" aria-hidden="true"></i>
+                <i className="fa fa-shield" aria-hidden="true"></i>
                 <a
                   style={{ color: "#808B96", fontSize: "20px", textDecoration:"none"}}
                   className="mx-2"
@@ -422,7 +422,7 @@ const Product = () => {
                 </a>
               </div>
               <div>
-                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i className="fa fa-phone" aria-hidden="true"></i>
                 <a
                   style={{ color: "#808B96", fontSize: "20px" , textDecoration:"none"}}
                   className="mx-2"
@@ -431,7 +431,7 @@ const Product = () => {
                 </a>
               </div>
               <div>
-                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <i className="fa fa-mobile" aria-hidden="true"></i>
                 <a
                   style={{ color: "#808B96", fontSize: "20px", textDecoration:"none"}}
                   className="mx-2"
@@ -628,11 +628,11 @@ const Product = () => {
                         <td className="" style={{ width: "20%" }} rowSpan={6}>
                           <p style={{ fontSize: "60px" }}>4.5</p>
                           <div style={{ fontSize: "20px", color: "#FFAB00" }}>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star-half-o" aria-hidden="true"></i>
                           </div>
                         </td>
                       </tr>
@@ -641,7 +641,7 @@ const Product = () => {
                           5
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -655,7 +655,7 @@ const Product = () => {
                           4
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -669,7 +669,7 @@ const Product = () => {
                           3
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -683,7 +683,7 @@ const Product = () => {
                           2
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -697,7 +697,7 @@ const Product = () => {
                           1
                           <i
                             style={{ fontSize: "20px", color: "#FFAB00" }}
-                            class="fa fa-star"
+                            className="fa fa-star"
                             aria-hidden="true"
                           ></i>
                         </td>
@@ -716,11 +716,11 @@ const Product = () => {
                           </td>
                           <td>
                           <div className="mt-3 mx-3" style={{ fontSize: "20px", color: "#FFAB00" }}>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star" aria-hidden="true"></i>
+                            <i className="fa fa-star-half-o" aria-hidden="true"></i>
                             <p style={{ fontSize: "20px", color: "#000000" }}>63 reseñas</p>
                           </div>
                         </td>

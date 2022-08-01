@@ -82,7 +82,7 @@ export const ProductsView = () => {
               <div className="d-flex ">
               <ModalProductEdit/>
                 <button className="btn text-danger" onClick={() => borrarProduct(id)}>
-                  <i class="fa fa-trash" aria-hidden="true"></i>
+                  <i className="fa fa-trash" aria-hidden="true"></i>
                 </button>
                 
               </div>

@@ -7,6 +7,9 @@ export const Carshopping = () => {
   const { deleteItemToCart, addItemToCart, deleteProductToCart } =
     useContext(CartContext);
   const { cartItem } = useContext(CartContext);
+  const total=cartItem.reduce(
+    (previous,current)=>previous + current.cantidad * current.price,0
+  );
 
   return (
     <Container>
@@ -108,7 +111,7 @@ export const Carshopping = () => {
                           className="btn text-success"
                           onClick={() => deleteProductToCart(prod)}
                         >
-                          <i class="fa fa-trash" aria-hidden="true"></i>
+                          <i className="fa fa-trash" aria-hidden="true"></i>
                         </button>
                       </td>
                     </tr>
@@ -120,7 +123,7 @@ export const Carshopping = () => {
               <div className="row">
                 <div className="col-md-6 col-12 d-md-block d-none">
                   <Link className="btn btn-success" to="/">
-                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                    <i className="fa fa-shopping-basket" aria-hidden="true"></i>
                     <span className="mx-2">Continuar Comprando</span>
                   </Link>
                 </div>
@@ -156,7 +159,7 @@ export const Carshopping = () => {
               <div className="card-body">
                 <dl className="row border-bottom">
                   <dt className="col-6">Subotal:</dt>
-                  <dd className="col-6 text-end">S/.</dd>
+                  <dd className="col-6 text-end">S/{total}.</dd>
                   <dt className="col-6 text-success">Envío:</dt>
                   <dd className="col-6 text-success text-end">Gratis</dd>
                   <dt className="col-6 text-success">
@@ -167,7 +170,7 @@ export const Carshopping = () => {
                 <dl className="row">
                   <dt className="col-6">Total:</dt>
                   <dd className="col-6 text-end h4">
-                    <span>S/.</span>
+                    <span>S/.{total}</span>
                   </dd>
                   <Link to="/checkout">
                     <button className="btn btn-success w-100 mt-3">
@@ -192,7 +195,7 @@ export const Carshopping = () => {
               className="pt-1 d-flex flex-column align-items-center d-md-block"
             >
               <div>
-                <i class="fa fa-shield" aria-hidden="true"></i>
+                <i className="fa fa-shield" aria-hidden="true"></i>
                 <a
                   style={{
                     color: "#808B96",
@@ -205,7 +208,7 @@ export const Carshopping = () => {
                 </a>
               </div>
               <div>
-                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i className="fa fa-phone" aria-hidden="true"></i>
                 <a
                   style={{
                     color: "#808B96",
@@ -218,7 +221,7 @@ export const Carshopping = () => {
                 </a>
               </div>
               <div>
-                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <i className="fa fa-mobile" aria-hidden="true"></i>
                 <a
                   style={{
                     color: "#808B96",

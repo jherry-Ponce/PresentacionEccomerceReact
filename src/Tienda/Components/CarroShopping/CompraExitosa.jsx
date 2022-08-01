@@ -13,7 +13,7 @@ export const CompraExitosa = () => {
             <Card.Header style={{ height: "10rem" }}>
               <div className="d-flex align-items-center justify-content-center h-100">
                 <i
-                  class="fa fa-check-circle-o text-success"
+                  className="fa fa-check-circle-o text-success"
                   style={{ fontSize: "4rem" }}
                   aria-hidden="true"
                 ></i>

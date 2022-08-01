@@ -23,7 +23,7 @@ const ModalEnvio = () => {
                     <Modal.Title>Calcular Costo de Envío</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <select class="form-control" required="">
+                    <select className="form-control" required="">
                         <option value="0">Seleccione Destino</option>
                         <option value="1">Lima</option>
                         <option value="2">Provincias</option>

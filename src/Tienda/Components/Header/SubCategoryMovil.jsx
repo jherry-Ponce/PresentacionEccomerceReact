@@ -15,8 +15,8 @@ const storage =  JSON.parse(localStorage.getItem("logeado"));
     <div className="bg-white h-full overflow-y-auto d-block d-md-none h-max">
         <div className="container bg-verde py-2 mb-2"></div>
         <ul className="px-0">
-         {props.data.map((categorias)=>(
-            <li  className=" text-dark  ">
+         {props.data.map((categorias,i)=>(
+            <li key={i} className=" text-dark  ">
               <NavLink 
                          to={`/Category/${categorias.id}`}
                           className="py-2 text-sm  d-flex align-items-center lista-menu text-decoration-none "
@@ -26,7 +26,7 @@ const storage =  JSON.parse(localStorage.getItem("logeado"));
                         >
                 <span className="flex justify-center w-9 text-dark px-3">
                   {/* icono */}
-                  <i class="fa fa-shopping-bag  text-verde" aria-hidden="true"></i>
+                  <i className="fa fa-shopping-bag  text-verde" aria-hidden="true"></i>
                 </span>
                 {/*   catgoria */}
                 {categorias.name} 
@@ -41,13 +41,13 @@ const storage =  JSON.parse(localStorage.getItem("logeado"));
             <>
             <Link to="/Login" className="px-4 py-2 text-sm d-flex align-items-center text-dark lista-menu ">
               <span className="d-flex justify-content-center w-9">
-              <i class="fa fa-user-o" aria-hidden="true"></i>
+              <i className="fa fa-user-o" aria-hidden="true"></i>
             </span>
               Login
             </Link>
             <Link  className="px-4 py-2 text-sm d-flex align-items-center text-dark lista-menu " to="/Register">
             <span className="d-flex justify-content-center w-9">
-            <i class="fa fa-sign-in" aria-hidden="true"></i>
+            <i className="fa fa-sign-in" aria-hidden="true"></i>
             </span>
               Register
 
@@ -57,7 +57,7 @@ const storage =  JSON.parse(localStorage.getItem("logeado"));
             <>
            <Link to="account/userProfile" className="px-4 py-2 text-sm d-flex align-items-center text-dark lista-menu ">
                  <span className="d-flex justify-content-center w-9">    
-                 <i class="fa fa-user-o" aria-hidden="true"></i>
+                 <i className="fa fa-user-o" aria-hidden="true"></i>
                   </span>
                   {storage.displayName.split(" ", [1])}
             </Link>
@@ -65,7 +65,7 @@ const storage =  JSON.parse(localStorage.getItem("logeado"));
               className="btn bg-verde text-primary padding-margin px-4 py-2 text-sm d-flex align-items-center text-dark lista-menu"
               >
               <span className="d-flex justify-content-center w-9">
-              <i class="fa fa-sign-out" aria-hidden="true"></i>
+              <i className="fa fa-sign-out" aria-hidden="true"></i>
               </span>
               Cerrar Sesion
               </button>

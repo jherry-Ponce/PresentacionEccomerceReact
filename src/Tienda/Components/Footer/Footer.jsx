@@ -302,21 +302,21 @@ function Footer() {
                     target="_blank"
                     title="Siguenos en Facebook"              
                   >
-                    <i class="icon fa fa-facebook" aria-hidden="true"></i>                    
+                    <i className="icon fa fa-facebook" aria-hidden="true"></i>                    
                   </a>
                   <a
                     href="https://twitter.com/"
                     target="_blank"
                     title="Siguenos en Twitter"
                   >
-                    <i class="icon fa fa-twitter" aria-hidden="true"></i>                    
+                    <i className="icon fa fa-twitter" aria-hidden="true"></i>                    
                   </a>
                   <a
                     href="https://www.youtube.com/"
                     target="_blank"
                     title="Siguenos en Youtube"
                   >
-                    <i class="icon fa fa-youtube-play" aria-hidden="true"></i>
+                    <i className="icon fa fa-youtube-play" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>

@@ -4,8 +4,8 @@ import "../../assets/Error.css"
 
 export const Page404=()=>{
     return(
-        <div className="error">
-            <img src={error} alt="" />
+        <div className="error w-100">
+            <img className=" w-100" src={error} alt="error 404" />
         </div>
     )
 }

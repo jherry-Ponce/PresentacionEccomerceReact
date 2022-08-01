@@ -2,8 +2,6 @@ import Slider from "react-slick";
 import Card from "react-bootstrap/Card";
 import { Container } from "react-bootstrap";
 import { useEffect, useState,useContext } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { productApi } from "../../helpers/ProductsApi";
 import Button from "react-bootstrap/Button";
 import { CartContext } from '../../../Context/CartContext';
@@ -77,7 +75,7 @@ export const CarrouselCategori = () => {
   return (
     <Container className="mt-5">
        <span className="fw-bold mx-2 my-2">PRODUCTOS DESTACADOS</span>
-       <i class="fa fa-star text-warning" aria-hidden="true"></i>
+       <i className="fa fa-star text-warning" aria-hidden="true"></i>
       <Slider {...settings} className="">
         {
         products.map(prod=>(

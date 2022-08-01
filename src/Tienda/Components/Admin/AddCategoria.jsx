@@ -52,7 +52,7 @@ export const AddCategoria = () => {
                     </Col>
                     <Col lg={10}>
                       <textarea
-                        class="form-control border-success"
+                        className="form-control border-success"
                         placeholder=""
                         style={{ height: "100px" }}
                       ></textarea>
@@ -64,7 +64,7 @@ export const AddCategoria = () => {
                     </Col>
                     <Col lg={10}>
                       <textarea
-                        class="form-control border-success"
+                        className="form-control border-success"
                         placeholder=""
                         style={{ height: "100px" }}
                       ></textarea>
@@ -73,12 +73,12 @@ export const AddCategoria = () => {
                 </div>
                 <div className="card-footer py-2">
                   <div className="btn btn-success float-end">
-                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    <i className="fa fa-plus" aria-hidden="true"></i>
                     <span className="mx-2">Agregar Categoria</span>
                   </div>
                   <div>
                     <button className="btn btn-secondary float-end mx-2">
-                      <i class="fa fa-times" aria-hidden="true"></i>
+                      <i className="fa fa-times" aria-hidden="true"></i>
                       <span className="mx-2">Cancelar</span>
                     </button>
                   </div>

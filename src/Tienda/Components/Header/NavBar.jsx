@@ -8,6 +8,7 @@ import {categoryApi} from "../../helpers/CategoryApi"
 import { UserIcon } from "./UserIcon";
 import { Cart } from "../Cart/Cart";
 import { Search } from "./Search";
+import { SubCategoryMovil } from "./SubCategoryMovil";
 export const NavBar = () => {
   const[categ, setCateg]=useState([]);
   const[product, setProduct]=useState("");
@@ -156,6 +157,11 @@ export const NavBar = () => {
                 </div>
               </div>
             </Container>
+            <div className="  d-md-none d-block">
+            
+               <SubCategoryMovil data={categ}/>
+               
+            </div>
           </Navbar.Collapse>
         </div>
       </Navbar>

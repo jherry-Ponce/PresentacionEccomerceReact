@@ -4,7 +4,12 @@
   width: 1.5rem;
   height: 1.5rem;
 }
-
+.bg-verde{
+  background: #3a9a70;
+}
+.text-verde{
+  color: #3a9a70;
+}
 .carro {
   transform: translate(50%, -50%);
   display: inline-block;
@@ -57,7 +62,7 @@ li {
 
 .lista-menu:hover {
   color: white !important;
-  background-color: blue;
+  background-color: #3a9a70;
 }
 
 .subcatergoria-menu {
@@ -67,7 +72,7 @@ li {
 }
 
 .subcatergoria-menu:hover {
-  color: blue;
+  color: #3a9a70;
 }
 
 .subcategoria {

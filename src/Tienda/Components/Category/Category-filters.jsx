@@ -22,8 +22,8 @@ export const Categoryfilters=({id})=>{
                     {
                         subcate.map((subcategori, index)=>(
                             
-                                <ListGroup.Item className='cursor-pointer '>
-                                    <NavLink to={`/Category/${id}/${subcategori.id}`} key={index} className='text-decoration-none' 
+                                <ListGroup.Item className='cursor-pointer ' key={index}>
+                                    <NavLink to={`/Category/${id}/${subcategori.id}`}  className='text-decoration-none' 
                                     style={({ isActive }) =>isActive ? activeStyle  : undefined} >
                                     {subcategori.name} 
                                     </NavLink> 

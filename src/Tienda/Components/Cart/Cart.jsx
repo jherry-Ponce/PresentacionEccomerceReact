@@ -8,25 +8,19 @@ import { Link } from 'react-router-dom';
 import './Style.css'
 import { CartItems } from './CartItems';
 export const Cart = () => {
-
-  
   const[productsLength,setProductsLength]=useState(0);
-  const style = {
-    width:400,
-    
-  };
+  const style = {width:400, };
   const {cartItem}=useContext(CartContext);
   useEffect(()=>{
     setProductsLength(
       cartItem.reduce((previous, current)=>previous + current.cantidad,0)
       )
   },[cartItem])
-
   const total=cartItem.reduce(
     (previous,current)=>previous + current.cantidad * current.descuento,0
   );
   return (
-   
+  
        <OverlayTrigger       
           trigger="click"
           key='bottom'
@@ -52,7 +46,6 @@ export const Cart = () => {
                     <strong>Aun no tiene productos en el carrito </strong> 
                   </Popover.Body>
                 )}
-
             </Popover>
           }
         >

@@ -3,10 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import { CartContext } from '../../../Context/CartContext';
-
-
 export const CartItems = ({value}) => {
-    console.log("entra carro")    
     const {deleteProductToCart}=useContext(CartContext); 
   return (
     <Card className='flex-row'>

@@ -39,7 +39,7 @@ export const NavBar = () => {
         collapseOnSelect
         expand={false}
         className="bg-dark position-sticky top-0 d-block py-0"
-        style={{"z-index": "200"}}
+        style={{"zIndex": "200"}}
       >
         <div className="">
         <div className="container d-flex align-items-center h-16 justify-content-between px-0  ">
@@ -63,7 +63,7 @@ export const NavBar = () => {
                 className="form-control "
                 placeholder="¿Que estas buscando?"
                 autoFocus
-                autocomplete="off"
+                autoComplete="off"
                 maxLength="true"
                 id="search"
                 onChange={()=>handleUpdate()}

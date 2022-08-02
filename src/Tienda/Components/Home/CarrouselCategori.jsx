@@ -89,6 +89,7 @@ export const CarrouselCategori = () => {
               variant="top"
               src={prod.images[0]}
               style={{ width: "170px", height: "182px" }}
+              alt={prod.title}
               className="mx-auto" onClick={handleShow}
             />
           </Link>  

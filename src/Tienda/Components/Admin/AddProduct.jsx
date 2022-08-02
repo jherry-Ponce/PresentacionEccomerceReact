@@ -149,9 +149,9 @@ export const AddProduct = () => {
                                             <Col lg={10}>
                                                 <select className="form-select border-success">
                                                     <option selected>Selecciona una Categoria</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
+                                                    <option value="1">Tecnologias</option>
+                                                    <option value="2">Hogar</option>
+                                                    <option value="3">Celulares</option>
                                                 </select>
                                             </Col>
                                         </Row>
@@ -165,6 +165,7 @@ export const AddProduct = () => {
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
+                                                    <option value="4"></option>
                                                 </select>
                                             </Col>
                                         </Row>

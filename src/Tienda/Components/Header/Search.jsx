@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export const Search = ({prod}) => {
     const[product,setProduct]=useState([])
     const fetchProducList = async  () => {
-        const listProduc =await  productApi().then((pro)=>pro);   
+        const listProduc =await  productApi().then((pro)=>Object.values(pro));   
         if (prod) {
           filtrar(listProduc);
         }

@@ -63,6 +63,7 @@ export const NavBar = () => {
                 className="form-control "
                 placeholder="¿Que estas buscando?"
                 autoFocus
+                autocomplete="off"
                 maxLength="true"
                 id="search"
                 onChange={()=>handleUpdate()}

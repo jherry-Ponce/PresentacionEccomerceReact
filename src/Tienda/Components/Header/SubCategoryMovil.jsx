@@ -1,4 +1,6 @@
 import { NavLink,Link } from "react-router-dom";
+import { CarroCate } from "../Cart/CarroCate";
+import { Cart } from "../Cart/Cart";
 export const SubCategoryMovil = (props) => {
   let activeStyle = {
     'fontWeight': 'bold',
@@ -72,7 +74,13 @@ const storage =  JSON.parse(localStorage.getItem("logeado"));
              </> 
           )
         }
-      
+          <div className="px-4 py-2 text-sm d-flex align-items-center text-dark lista-menu ">
+          <span className="d-flex justify-content-center w-9">
+          <Link to='/cart'> <CarroCate/></Link>
+            </span>
+          </div>
+            
+        
       </div>
     </> 
   );

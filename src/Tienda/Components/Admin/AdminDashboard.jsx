@@ -1,10 +1,13 @@
 import { Col, Row, Card, Modal, Table } from "react-bootstrap";
 import {MenuAdmin} from "../Admin/MenuAdmin";
-
+import { Navigate } from "react-router-dom";
 
 export const AdminDashboard = () => {
+  let storage = JSON.parse(localStorage.getItem("logeado"))
+    console.log(storage)
   return (
     <>
+     {(storage === null) ? <Navigate to="/" replace={true} />:
       <Row>
         <Col md={2}>
           <MenuAdmin />
@@ -120,7 +123,7 @@ export const AdminDashboard = () => {
             </div>
           </Row>
         </Col>
-      </Row>
+      </Row>}
     </>
   );
 };

@@ -3,13 +3,14 @@ import ReactDOM from "react-dom";
 import { Container, Col, Row, Breadcrumb, Card } from "react-bootstrap";
 import Swal from "sweetalert2";
 import { agregarPedido } from "../../helpers/pedido";
-
+import { useNavigate } from "react-router-dom";
 const PayPalButton = window.paypal.Buttons.driver("react", { React, ReactDOM });
 export const Pagos = () => {
     /*Traer datos de Local*/
     let datos = JSON.parse(localStorage.getItem("carro"))
     let TotalFinal = 0;
     let bandera = false
+    let navigate=useNavigate();
     let total = datos.map((total) => {
         TotalFinal += (total.cantidad * total.descuento)
     })
@@ -32,6 +33,7 @@ export const Pagos = () => {
             'Pedido Realizado con Exito!',
             'success'
         )
+        navigate("/compraExitosa", { replace: true });
         }else{
             alert("error")
         }

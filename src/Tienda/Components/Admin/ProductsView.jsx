@@ -4,7 +4,7 @@ import { useEffect, useState, useContext } from "react";
 import { eliminarProduct, productApi } from "../../helpers/ProductsApi";
 import { MenuAdmin } from "../Admin/MenuAdmin";
 import {ModalProductEdit} from "./ModalProductEdit"
-
+import { Navigate } from "react-router-dom";
 export const ProductsView = () => {
   const [show, setShow] = useState(false);
   const [products, setProducts] = useState([]);
@@ -109,8 +109,13 @@ export const ProductsView = () => {
       }
     }
   };
+
+
+  let storage = JSON.parse(localStorage.getItem("logeado"))
+    console.log(storage)
   return (
     <>
+     {(storage === null) ? <Navigate to="/" replace={true} />:
       <Row>
         <Col xs={2}>
           <MenuAdmin />
@@ -135,7 +140,7 @@ export const ProductsView = () => {
             </Col>
           </Row>
         </Col>
-      </Row>
+      </Row>}
     </>
   );
 };

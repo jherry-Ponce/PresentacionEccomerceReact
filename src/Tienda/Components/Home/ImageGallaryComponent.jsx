@@ -11,7 +11,7 @@ const ImageGallaryComponent = ({images}) => {
                 {
                     images.map((imagenes,i) => (
                         <div key={i}>
-                            <img src={imagenes} />
+                            <img className="img" src={imagenes} alt={`img${i}`} />
                         </div>
                     ))
                 }

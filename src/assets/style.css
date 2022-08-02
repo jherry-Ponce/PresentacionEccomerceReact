@@ -1,5 +1,7 @@
 /*NavBar*/
-
+.imgaa{
+  image-rendering: auto;
+}
 .barra {
   width: 1.5rem;
   height: 1.5rem;

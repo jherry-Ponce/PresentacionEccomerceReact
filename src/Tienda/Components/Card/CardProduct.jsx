@@ -7,6 +7,7 @@ import { useContext } from "react";
 
 const CardProduct=(props)=> {
   const {addItemToCart} =useContext(CartContext)
+  
     return (
       <>
       <Card
@@ -16,7 +17,8 @@ const CardProduct=(props)=> {
        <Link to={`/Product/${props.product.id}`}><Card.Img
           variant="top"
           src={props.img}
-          className="mx-auto"
+          className="mx-auto imgaa"
+          alt={props.product.title}
         /></Link> 
         <Card.Body className="d-flex flex-column justify-content-center align-items-center">
           <Card.Title className="fs-6 text-center fw-bolder ">

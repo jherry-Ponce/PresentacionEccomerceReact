@@ -11,7 +11,7 @@ const CardProductHorizontal=(props)=>  {
           className="img-list p-2 "
           variant="top"
           src={props.img}
-          alt={props.img}
+          alt={props.product.title}
         /></Link> 
         <Card.Body>
           <Card.Text>

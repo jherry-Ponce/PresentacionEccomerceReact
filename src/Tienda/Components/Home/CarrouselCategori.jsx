@@ -86,6 +86,7 @@ export const CarrouselCategori = () => {
           >
           <Link to={`/Product/${prod.id}`}>
             <Card.Img
+             loading="lazy"
               variant="top"
               src={prod.images[0]}
               style={{ width: "170px", height: "182px" }}

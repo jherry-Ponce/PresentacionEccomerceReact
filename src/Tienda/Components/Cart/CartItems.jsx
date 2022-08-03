@@ -8,6 +8,7 @@ export const CartItems = ({value}) => {
   return (
     <Card className='flex-row'>
         <Card.Img className='img-cart py-2 '
+             loading="lazy"
             variant="top"
             src={value.images[0]}
         />

@@ -28,7 +28,7 @@ export const Cardcategory = ({id}) => {
     <>
       <Container fluid className="w-100 mt-4">
         <Row>
-            <img
+            <img  loading="lazy"
               src="https://mercury.vteximg.com.br/arquivos/ids/4680630/27_12_desktop_newhome_banner_tecnologia.jpg"
               alt=""
               className="w-100"

@@ -47,7 +47,7 @@ export const Carshopping = () => {
                   <tbody key={index}>
                     <tr>
                       <td>
-                        <img
+                        <img  loading="lazy"
                           src={prod.images[0]}
                           width="90"
                           className="rounded"
@@ -183,7 +183,7 @@ export const Carshopping = () => {
               <div></div>
             </div>
             <p className="text-center">
-              <img
+              <img  loading="lazy"
                 src="https://ladyrecords.net/wp-content/uploads/2020/12/compra-segura.png"
                 alt="..."
                 width={200}

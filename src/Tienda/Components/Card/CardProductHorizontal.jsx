@@ -8,6 +8,7 @@ const CardProductHorizontal=(props)=>  {
     return (
       <Card className="flex-row cardProd">
          <Link to={`/Product/${props.product.id}`}><Card.Img
+          loading="lazy"
           className="img-list p-2 "
           variant="top"
           src={props.img}

@@ -85,7 +85,7 @@ function Footer() {
               <div className="d-lg-flex flex-fill justify-content-evenly">
                 <div className="text-lg-center py-lg-3 px-lg-4 me-2">
                   <div className="col-xl-12 d-none d-lg-block">
-                    <img className="f-icon" src={cmr} alt="" style={{height: "30px"}}/>
+                    <img  loading="lazy" className="f-icon" src={cmr} alt="" style={{height: "30px"}}/>
                   </div>
                   <div className="col-xl-12 col-lg-3 txt-mpagos">
                     CMR Falabella
@@ -147,7 +147,7 @@ function Footer() {
                 </div>
                 <div className="text-lg-center py-lg-3 px-lg-4 ">
                   <div className="col-xl-12 d-none d-lg-block">
-                    <img className="f-icon" src={pefectivo} alt="" style={{height: "30px"}}/>
+                    <img  loading="lazy" className="f-icon" src={pefectivo} alt="" style={{height: "30px"}}/>
                   </div>
                   <div className="col-xl-12 col-lg-8 txt-mpagos">
                     Pago Efectivo
@@ -323,13 +323,13 @@ function Footer() {
               <div className="col-12 col-lg-12 col-md-8 justify-content-sm-evenly">
                 <div className=" my-2 d-lg-block d-md-flex align-items-center">
                   <a href="#" className="d-block text-center">
-                    <img className="icon-app my-1" src={GooglePlay} alt="" />
+                    <img  loading="lazy" className="icon-app my-1" src={GooglePlay} alt="" />
                   </a>
                   <a href="#" className="d-block text-center">
-                    <img className="icon-app my-1" src={AppStore} alt="" />
+                    <img  loading="lazy" className="icon-app my-1" src={AppStore} alt="" />
                   </a>
                   <a href="#" className="d-block text-center">
-                    <img className="icon-app my-1" src={AppGallery} alt="" />
+                    <img  loading="lazy" className="icon-app my-1" src={AppGallery} alt="" />
                   </a>
                 </div>
               </div>
@@ -337,7 +337,7 @@ function Footer() {
 
             <div className="row d-flex justify-content-center my-3">
               <a className="col-12 text-center" target="_blank" href="/#">
-                <img className="icon-libro" src={libro} alt="" />
+                <img  loading="lazy" className="icon-libro" src={libro} alt="" />
               </a>
               <i className="col-md-12 col-12 mt-3"></i>
               <div className="col-12 text-center text-lg-start">

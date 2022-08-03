@@ -15,6 +15,7 @@ const CardProduct=(props)=> {
         className="card mt-2 mx-1 px-2 cardProd"
       >
        <Link to={`/Product/${props.product.id}`}><Card.Img
+          loading="lazy"
           variant="top"
           src={props.img}
           className="mx-auto imgaa"
